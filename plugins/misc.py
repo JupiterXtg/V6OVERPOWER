@@ -9,6 +9,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQ
 import logging
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)
+from info import ADMINS
 
 @Client.on_message(filters.command('id') & filters.user(ADMINS))
 async def showid(client, message):
