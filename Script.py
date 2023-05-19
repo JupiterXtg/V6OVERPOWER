@@ -1,7 +1,7 @@
 class script(object):
     START_TXT = """<b>👋 ʜᴇʏ,{}\n ɪ'ᴍ ᴀᴅᴍɪɴ ᴏғ ᴍᴀʟᴀʏᴀʟɪ ғʀᴇᴀᴋs. ʙᴜᴛ ɪᴍ ᴏɴʟʏ ʙᴜɪʟᴛ ᴏɴʟʏ ғᴏʀ <a href='https://t.me/+MIOa3hp24PwyNzZl'>ᴍғ ɢʀᴏᴜᴘ</a>...</b>"""
 
-    HELP_TXT = """👋ʜɪ,{} \n ᴛʜᴇsᴇ ᴀʀᴇ ᴍʏ ʜᴇʟᴘ ғᴇᴀᴛᴜʀᴇs.."""
+    HELP_TXT = """ᴍʏ ʜᴇʟᴘ ғᴇᴀᴛᴜʀᴇs.."""
 
     ABOUT_TXT = """<b>᚛›𝐍𝐚𝐦𝐞: <a href='tg://user?id=5600316354'><b>𝐊𝐫𝐢𝐭𝐡𝐢</b></a>
 ᚛›𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞: <a href='https://www.python.org/'>𝐏𝐲𝐭𝐡𝐨𝐧 𝟑.𝟖.𝟏𝟔</a>
