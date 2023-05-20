@@ -109,8 +109,7 @@ async def disable_chat(bot, message):
     await message.reply('Chat Successfully Disabled')
         await bot.send_message(
             chat_id=chat_, 
-            text=f'<b>Hello Friends, \nMy admin has told me to leave from group so i go!</b> \nReason : <code>{reason}</code>',
-            reply_markup=reply_markup)
+            text=f'<b>Hello Friends, \nMy admin has told me to leave from group so i go!</b> \nReason : <code>{reason}</code>'
         await bot.leave_chat(chat_)
     except Exception as e:
         await message.reply(f"Error - {e}")
