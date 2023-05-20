@@ -32,6 +32,11 @@ async def save_group(bot, message):
             except:
                 pass
             await bot.leave_chat(message.chat.id)
+            return
+        buttons = [[
+                    InlineKeyboardButton('иѕк вσтѕ', url="https://t.me/NSKBOTS)
+                  ]]
+        reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
             text=f"<b>Thankyou For Adding Me In {message.chat.title}❣️</b>",
             reply_markup=reply_markup)
@@ -40,6 +45,7 @@ async def save_group(bot, message):
         if settings["welcome"]:
             for u in message.new_chat_members:
                 if (temp.MELCOW).get('welcome') is not None:
+                    try:
                         await (temp.MELCOW['welcome']).delete()
                     except:
                         pass
@@ -48,16 +54,15 @@ async def save_group(bot, message):
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton('иѕк вσтѕ', url="https://t.me/nskbots)
+                                                                           InlineKeyboardButton('иѕк вσтѕ', url="https://t.me/NSKBOTS)
                                                                          ]]
                                                  ),
                                                  parse_mode=enums.ParseMode.HTML
                 )
                 
         if settings["auto_delete"]:
-            await asyncio.sleep(60)
+            await asyncio.sleep(30)
             await (temp.MELCOW['welcome']).delete()
-
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
 async def leave_a_chat(bot, message):
