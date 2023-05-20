@@ -73,6 +73,11 @@ async def leave_a_chat(bot, message):
         chat = int(chat)
     except:
         chat = chat
+    try:
+        buttons = [[
+            InlineKeyboardButton('иѕк вσтѕ', url="https://t.me/NSKBOTS")
+        ]]
+        reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
             chat_id=chat,
             text='<b>Hello Friends, \nMy admin has told me to leave from group so i go!</b>',
