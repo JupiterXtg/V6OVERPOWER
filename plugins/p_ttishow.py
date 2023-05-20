@@ -34,7 +34,7 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-                    InlineKeyboardButton('иѕк вσтѕ', url="https://t.me/NSKBOTS)
+                    InlineKeyboardButton('иѕк вσтѕ', url="https://t.me/NSKBOTS")
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -54,7 +54,7 @@ async def save_group(bot, message):
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton('иѕк вσтѕ', url="https://t.me/NSKBOTS)
+                                                                           InlineKeyboardButton('иѕк вσтѕ', url="https://t.me/NSKBOTS")
                                                                          ]]
                                                  ),
                                                  parse_mode=enums.ParseMode.HTML
