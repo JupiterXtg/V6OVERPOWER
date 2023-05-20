@@ -13,7 +13,7 @@ from utils import get_file_id, parser, split_quotes
 from info import ADMINS
 
 
-@Client.on_message(filters.command(['filter', 'add']), filters.incoming & filters.user(ADMINS))
+@Client.on_message(filters.command(['filter', 'add']) filters.incoming)
 async def addfilter(client, message):
     userid = message.from_user.id if message.from_user else None
     if not userid:
@@ -180,7 +180,7 @@ async def get_all(client, message):
         parse_mode=enums.ParseMode.MARKDOWN
     )
         
-@Client.on_message(filters.command('del'), filters.incoming, & filters.user(ADMINS))
+@Client.on_message(filters.command('del') filters.incoming)
 async def deletefilter(client, message):
     userid = message.from_user.id if message.from_user else None
     if not userid:
@@ -231,7 +231,7 @@ async def deletefilter(client, message):
     await delete_filter(message, query, grp_id)
         
 
-@Client.on_message(filters.command('delall'), filters.incoming & filters.users(ADMINS))
+@Client.on_message(filters.command('delall') filters.incoming)
 async def delallconfirm(client, message):
     userid = message.from_user.id if message.from_user else None
     if not userid:
@@ -269,4 +269,3 @@ async def delallconfirm(client, message):
             ]),
             quote=True
         )
-
