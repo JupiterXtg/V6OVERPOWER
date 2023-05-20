@@ -45,10 +45,8 @@ async def save_group(bot, message):
                         pass
                 temp.MELCOW['welcome'] = await message.reply_video(
                                                  video=(MELCOW_VID),
-                                                 caption=(script.MELCOW_ENG.format(u.mention, message.chat.title))
-                
-               
-
+                                                 caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),parse_mode=enums.ParseMode.HTML
+                               
 
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
