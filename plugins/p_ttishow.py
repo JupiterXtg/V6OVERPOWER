@@ -42,7 +42,6 @@ async def save_group(bot, message):
                 if (temp.MELCOW).get('welcome') is not None:
                         await (temp.MELCOW['welcome']).delete()
                     except:
-                        pass
                 temp.MELCOW['welcome'] = await message.reply_video(
                                                  video=(MELCOW_VID),
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title))
