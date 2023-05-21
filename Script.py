@@ -108,7 +108,7 @@ By {f}
     
 <b>᚛› 𝐈𝐃 - <code>{}</code></b>
 <b>᚛› 𝐍𝐚𝐦𝐞 - {}</b>
-<b>᚛› 𝐔𝐍 - @{}</b>
+<b>᚛› 𝐔𝐍 - <b> <a href='tg://user?id={from_user.id}'><b>Click Here</b></a>\n</b>
 
 By @{} """
 
@@ -205,7 +205,7 @@ By @{} """
 <b>🎛 Countries : {countries}</b>
 <b>📓 Sᴛᴏʀy : {plot}</b>
 
-<b>⚡️Request by⚡️</b> : {message.from_user.mention}"""
+<b>⚡️Request by⚡️ : </b> <a href='tg://user?id={from_user.id}'><b>{}</b></a>\n"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
