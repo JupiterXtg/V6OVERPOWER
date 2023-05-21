@@ -189,26 +189,23 @@ By @{} """
 𝗠𝘀𝗴 <b>: {}</b>"""
 
     CAPTION = """
-<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
-
-<b>
-╭─────── • ◆ • ───────╮
-🔅 Dᴀʀᴋ Mᴏᴅᴇ :  <a href="https://t.me/addtheme/DQ_The_File_Donor_Theme">Tᴏᴜᴄʜ</a>
-╰─────── • ◆ • ───────╯
-
-=========== • ✠ • ===========
-▫️ ᴄʜᴀɴɴᴇʟ : @DQ_The_File_Donor_Updates
-▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @DQ_The_File_Donor_Support
-=========== • ✠ • ===========</b>"""
+<b>{file_caption}\n\n@MALAYALIFREAKSALL</b>"""
 
     IMDB_TEMPLATE_TXT = """
-<b>Query: {query}
-IMDb Data:
+<b>🎬 Title : {title}</b>
+<b>🎭 Genres : {genres}</b>
+<b>📆 Year : {year}</b>
+<b>🌟 Rating :  {rating}/10</b>
+<b>🔊 Languages : {languages}</b>
+<b>👨‍💼 Dɪʀᴇᴄᴛᴏʀ : {director}</b>
+<b>👨🏻‍🦱 Pʀᴏᴅᴜᴄᴇʀ : {producer}</b>
+<b>📑 wʀɪᴛᴇʀ : {writer}</b>
+<b>📀 RunTime : {runtime} Minutes</b>
+<b>📆 Release Info : {release_date}</b>
+<b>🎛 Countries : {countries}</b>
+<b>📓 Sᴛᴏʀy : {plot}</b>
 
-🏷 Title: <a href={url}>{title}</a>
-🎭 Genres: {genres}
-📆 Year: <a href={url}/releaseinfo>{year}</a>
-🌟 Rating: <a href={url}/ratings>{rating}</a> / 10</b>"""
+<b>⚡️Request by⚡️</b> : {message.from_user.mention}"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
@@ -237,7 +234,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 Dᴀᴛᴇ : {}
 Tɪᴍᴇ : {}
 Tɪᴍᴇᴢᴏɴᴇ : Asia/Kolkata
-Bᴜɪʟᴅ Sᴛᴀᴛᴜs: V2.7.9</b>"""
+Bᴜɪʟᴅ Sᴛᴀᴛᴜs: V4.71</b>"""
 
     LOGO = """
 
