@@ -189,7 +189,7 @@ By @{} """
 𝗠𝘀𝗴 <b>: {}</b>"""
 
     CAPTION = """
-<b>{file_caption}\n\n@MALAYALIFREAKSALL</b>"""
+<b>👋 ʜᴇʏ, {}\n\n {file_caption}\n\n @MALAYALIFREAKSALL</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🎬 Title : {title}</b>
