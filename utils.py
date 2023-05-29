@@ -600,7 +600,7 @@ async def send_all(bot, userid, files, ident):
         try:
             invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
         except ChatAdminRequired:
-            logger.error("Mᴀᴋᴇ sᴜʀᴇ Bᴏᴛ ɪs ᴀᴅᴍɪɴ ɪɴ Fᴏʀᴄᴇsᴜʙ ᴄʜᴀɴɴᴇʟ")
+            logger.error("Mᴀᴋᴇ sᴜʀᴇ Bᴏᴛ ɪs ᴀᴅᴍɪɴ ɪɴ Bᴀᴄᴋ-Uᴘ Cʜᴀɴɴᴇʟ")
             return
         if ident == 'filep' or 'checksubp':
             pre = 'checksubp'
