@@ -1,5 +1,5 @@
 # DEPLOY TO RAILWAY
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/K-IN1I)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/smPXxz)
 
 # DEPLOY TO HEROKU
 <br>
